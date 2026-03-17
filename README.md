@@ -1,11 +1,18 @@
-Com certeza! Com base nas diretrizes fornecidas nos documentos, aqui está um modelo básico para o seu arquivo **README.md**. Você pode copiar e adaptar conforme necessário para o seu repositório no GitHub.
-
 ***
 
 # Bot de Clima no Telegram com N8N 🌤
 
 ### Descrição do Projeto
 Este projeto consiste em um chatbot desenvolvido na plataforma **N8N** que permite aos usuários consultar a temperatura atual de qualquer cidade brasileira diretamente pelo **Telegram**. O bot recebe o nome da cidade, processa a informação e utiliza a API do **OpenWeather** para retornar uma mensagem amigável com o clima em tempo real.
+
+---
+
+### 🚀 Iniciando o n8n
+Pata iniciar o n8n localmente utilize docker (Docker Desktop, docker, docker-compose)
+1. Crie um arquivo .env com as variáveis indicadas no template (.env-template)
+2. Siga as instruções abaixo para criar os tokens/keys caso ainda não tenha criado.
+3. Execute o o docker-compose ( docker-compose up -d )
+4. Crie sua conta no n8n ou acesse com uma conta já existente.
 
 ---
 
