@@ -33,15 +33,8 @@ Para que o bot funcione, você precisará configurar duas variáveis de ambiente
 2.  **OPENWEATHER_API_KEY**:
     *   Crie uma conta gratuita no site [OpenWeather](https://home.openweathermap.org/users/sign_up).
     *   Gere sua chave de API e insira-a no nó de **HTTP Request** que consulta o clima.
-
----
-
-### 🤖 Uso do Google Gemini (Opcional)
-Este workflow inclui integração opcional com o **Google Gemini** para tornar as respostas mais naturais e criativas.
-*   **Onde encontrar:** O nó do Gemini está localizado após a extração de dados da API.
-*   **Como ativar:** Insira sua chave de API do Gemini nas credenciais do nó específico.
-*   **Fallback:** Caso você não possua uma chave Gemini, o workflow possui um nó de **Function/Code** de fallback que garante o envio da mensagem padrão de forma determinística.
-
+3. É necessário criar as credenciais de acesso para o Telegram e o Openweather nos nós Telegram Trigger e HTTP Request. Utilizando a versão community não é simples de adicionar variáveis globais/projeto.
+4. Também é necessário alterar o valor do parâmetro appid no nó HTTP Request para incluir a API key do Openweather.
 ---
 
 ### 🕹 Como Executar e Testar
