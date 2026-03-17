@@ -10,9 +10,8 @@ Este projeto consiste em um chatbot desenvolvido na plataforma **N8N** que permi
 ### 🚀 Iniciando o n8n
 Pata iniciar o n8n localmente utilize docker (Docker Desktop, docker, docker-compose)
 1. Crie um arquivo .env com as variáveis indicadas no template (.env-template)
-2. Siga as instruções abaixo para criar os tokens/keys caso ainda não tenha criado.
-3. Execute o o docker-compose ( docker-compose up -d )
-4. Crie sua conta no n8n ou acesse com uma conta já existente.
+2. Execute o o docker-compose ( docker-compose up -d )
+3. Crie sua conta no n8n ou acesse com uma conta já existente.
 
 ---
 
